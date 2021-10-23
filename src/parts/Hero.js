@@ -67,7 +67,7 @@ const Hero = () => {
             ></button>
           </div>
           <img
-            src="images/content/image-section-1.png"
+            src="/images/content/image-section-1.png"
             alt="hero 1"
             className="
               absolute
