@@ -23,7 +23,10 @@ const Suggestion = () => {
               </div>
               <h5 className="text-lg font-semibold mt-4">Cangkir Mauttie</h5>
               <span className="">IDR 89.300.000</span>
-              <Link to="/categories/1" className="stretched-link"></Link>
+              <Link
+                to="/categories/1/products/1"
+                className="stretched-link"
+              ></Link>
             </div>
           </div>
           <div className="px-3 flex-none" style={{ width: 320 }}>
@@ -37,7 +40,10 @@ const Suggestion = () => {
               </div>
               <h5 className="text-lg font-semibold mt-4">Saman Kakka</h5>
               <span className="">IDR 14.500.399</span>
-              <Link to="/categories/1" className="stretched-link"></Link>
+              <Link
+                to="/categories/1/products/1"
+                className="stretched-link"
+              ></Link>
             </div>
           </div>
           <div className="px-3 flex-none" style={{ width: 320 }}>
@@ -51,7 +57,10 @@ const Suggestion = () => {
               </div>
               <h5 className="text-lg font-semibold mt-4">Lino Dino</h5>
               <span className="">IDR 22.000.000</span>
-              <Link to="/categories/1" className="stretched-link"></Link>
+              <Link
+                to="/categories/1/products/1"
+                className="stretched-link"
+              ></Link>
             </div>
           </div>
           <div className="px-3 flex-none" style={{ width: 320 }}>
@@ -65,7 +74,10 @@ const Suggestion = () => {
               </div>
               <h5 className="text-lg font-semibold mt-4">Syail Ammeno</h5>
               <span className="">IDR 6.399.999</span>
-              <Link to="/categories/1" className="stretched-link"></Link>
+              <Link
+                to="/categories/1/products/1"
+                className="stretched-link"
+              ></Link>
             </div>
           </div>
         </div>
