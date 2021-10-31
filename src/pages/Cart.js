@@ -1,4 +1,5 @@
 import React from "react";
+import Document from "parts/Document";
 import Header from "parts/Header";
 import Breadcrumb from "components/Breadcrumb";
 import ShoppingCart from "parts/Cart/ShoppingCart";
@@ -8,7 +9,7 @@ import Footer from "parts/Footer";
 
 const Cart = () => {
   return (
-    <>
+    <Document>
       <Header theme="black" position="relative" />
       <Breadcrumb
         list={[
@@ -26,7 +27,7 @@ const Cart = () => {
       </section>
       <Sitemap />
       <Footer />
-    </>
+    </Document>
   );
 };
 

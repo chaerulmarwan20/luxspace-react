@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Provider } from "helpers/hooks/useGlobalContext";
 import HomePage from "pages/HomePage";
 import Details from "pages/Details";
 import Cart from "pages/Cart";
 import Congratulation from "pages/Congratulation";
 import NotFound from "pages/NotFound";
 import "assets/css/app.css";
-import { Provider } from "helpers/hooks/useGlobalContext";
 
 function App() {
   return (

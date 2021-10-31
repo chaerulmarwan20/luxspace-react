@@ -16,7 +16,10 @@ const fetchData = ({
     headers: { "Content-Type": "application/json" },
     body,
   }).then(async (res) => {
-    const jsonRes = res.status === 200 ? await res.json() : res;
+    const statusHasResponse = [200, 404];
+    const jsonRes = statusHasResponse.includes(res.status)
+      ? await res.json()
+      : res;
     if (res.ok) return jsonRes;
     throw new Error(JSON.stringify(jsonRes));
   });

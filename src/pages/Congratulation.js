@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Document from "parts/Document";
 import Header from "parts/Header";
 import Breadcrumb from "components/Breadcrumb";
 import Sitemap from "parts/Sitemap";
@@ -7,7 +8,7 @@ import Footer from "parts/Footer";
 
 const Congratulation = () => {
   return (
-    <>
+    <Document>
       <Header theme="black" position="relative" />
       <Breadcrumb
         list={[
@@ -42,7 +43,7 @@ const Congratulation = () => {
       </section>
       <Sitemap />
       <Footer />
-    </>
+    </Document>
   );
 };
 
